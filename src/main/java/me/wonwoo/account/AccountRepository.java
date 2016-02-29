@@ -11,7 +11,6 @@ import org.springframework.data.rest.core.annotation.RestResource;
  * Created by wonwoo on 16. 1. 18..
  */
 
-//@Projection same package?
 @RepositoryRestResource(collectionResourceRel = "account", path = "account")
 public interface AccountRepository extends JpaRepository<Account, Long> {
 
